@@ -19,9 +19,6 @@
             if (td.getAttribute('style') === 'width: 60px;' && td.getAttribute('valign') === 'top') {
                 return;
             }
-            if (td.style.width === '60px' && td.vAlign === 'top') {
-                return;
-            }
             
             const text = td.textContent.trim();
             if (text) {
